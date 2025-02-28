@@ -46,8 +46,3 @@ def load_issues(issues):
         
     return docs
         
-owner = "techwithtim"
-repo = "Flask-Web-App-Tutorial"
-endpoint = "issues"
-
-fetch_github(owner=owner, repo=repo, endpoint=endpoint)
